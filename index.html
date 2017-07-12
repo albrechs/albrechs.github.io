@@ -1,10 +1,37 @@
 <!DOCTYPE html>
-
-<html>
-<head></head>
+<html lang="en">
+<head>
+  <title>Virtual Farm</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- jquery -->
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!-- styling -->
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    body {
+      background: url("http://i.imgur.com/mA1u1FC.jpg") no-repeat;
+      background-size: cover;
+    }
+    .animal {
+      height: 250px;
+      width: 250px;
+      position: absolute;
+      bottom: 100px;
+      cursor: pointer;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  </style>
+  <!-- js -->
+</head>
 <body>
-  <a href="goals.html"><img src="http://i.imgur.com/dosK05U.gif" /></a> 
-  <br>
-  <a href="worries.html"><img src="http://i.imgur.com/2s0HwpM.gif" /></a>
+
+  <div class="container-fluid farm"></div>
+  <script src="app.js"></script>
 </body>
 </html>
